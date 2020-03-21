@@ -16,7 +16,7 @@ header {position: absolute;
   top: 20px;
 }
 
-.one {position: absolute;
+.one {
   width: 400px;
   height: 800px;
   border: 5px solid #E5E000;
@@ -27,7 +27,7 @@ header {position: absolute;
   top: 112px;
 }
 
-.two {position: absolute;
+.two {
   width: 400px;
   height: 800px;
   border: 5px solid #E5E000;
@@ -36,21 +36,20 @@ header {position: absolute;
   display: inline-block;
   left: 520px;
   top: 112px;
+  float: left;
 
 }
 
-.three {position: absolute;
-  position: absolute;
-  width: 400px;
-  height: 800px;
-  left: 970px;
-  top: 112px;
+.three {
   width: 400px;
   height: 800px;
   border: 5px solid #E5E000;
   box-sizing: border-box;
   border-radius: 30px;
   display: inline-block;
+  left: 970px;
+  top: 112px;
+  float: left;
 
 }
 
