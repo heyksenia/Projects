@@ -1,0 +1,84 @@
+@import url(reset.css);
+
+header {position: absolute;
+  height: 60px;
+  width: 1440px;
+  left: 0px;
+  top: 0px;
+  background-color: red;
+}
+
+.headertext {position: absolute;
+  color: white;
+  width: 820px;
+  height: 20px;
+  left: 0px;
+  top: 20px;
+}
+
+.one {position: absolute;
+  width: 400px;
+  height: 800px;
+  border: 5px solid #E5E000;
+  box-sizing: border-box;
+  border-radius: 30px;
+  display: inline-block;
+  left: 70px;
+  top: 112px;
+}
+
+.two {position: absolute;
+  width: 400px;
+  height: 800px;
+  border: 5px solid #E5E000;
+  box-sizing: border-box;
+  border-radius: 30px;
+  display: inline-block;
+  left: 520px;
+  top: 112px;
+
+}
+
+.three {position: absolute;
+  position: absolute;
+  width: 400px;
+  height: 800px;
+  left: 970px;
+  top: 112px;
+  width: 400px;
+  height: 800px;
+  border: 5px solid #E5E000;
+  box-sizing: border-box;
+  border-radius: 30px;
+  display: inline-block;
+
+}
+
+h2 {position: absolute;
+  width: 207px;
+height: 23px;
+padding: 33px 160px 744px 33px;
+
+}
+
+.recipe {position: absolute;
+  color: black;
+  width: 334px;
+  height: 670px;
+  margin: 97px 33px 32px 33px;
+
+}
+footer {position: absolute;
+width: 60px;
+height: 1140px;
+top: 964px;
+left: 0px;
+}
+
+p {font-family: Times New Roman;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;}
+
+
+
