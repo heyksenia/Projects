@@ -53,15 +53,13 @@ header {position: absolute;
 
 }
 
-h2 {position: absolute;
-  width: 207px;
+h2 {width: 207px;
 height: 23px;
 padding: 33px 160px 744px 33px;
 
 }
 
-.recipe {position: absolute;
-  color: black;
+.recipe {color: black;
   width: 334px;
   height: 670px;
   margin: 97px 33px 32px 33px;
