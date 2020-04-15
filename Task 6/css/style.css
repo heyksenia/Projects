@@ -1,0 +1,105 @@
+@import url(reset.css);
+
+body {display: grid;
+	width: 1440px;
+
+}
+
+header {width: 1440px;
+height: 140px;
+background-color: #FFFFFF;
+font-family: Arial;
+color: #E50043;
+font-style: normal;
+font-weight: normal;
+font-size: 50px;
+position: fixed;
+}
+
+
+nav {display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+
+nav li {display: inline;
+padding: 0 25px;
+}
+
+.logo {width: 1440px;
+height: 950px;
+background-image: url(../img/evianlogo.jpg);
+display: flex;
+align-items: center;
+}
+
+h1 {font-family: Arial;
+font-size: 100px;
+color: #E50043;
+margin: auto;
+
+}
+
+.water {border: 3px solid #F8BFC7;
+border-radius: 20px;
+width: 1040px;
+height: 280px;
+margin: 150px 199px 150px 201px;
+}
+
+p {font-family: Arial;
+font-size: 25px;
+letter-spacing: 0.05em;
+}
+
+.water p {padding: 24px;
+
+}
+
+.bottle-container {height: 863px;
+	margin-top: 150px;
+display: flex;
+}
+
+.bottle-item {margin: auto;
+
+}
+
+p .bottle-item {width: 248px;
+height: 58px;
+text-align: center;
+
+}
+
+.glass-container {width: 1040px;
+height: 280px;
+border: 3px solid #F8BFC7;
+border-radius: 20px;
+margin: 156px 199px 150px 201px;
+display: flex;
+}
+
+.glass {padding: 30px 80px;
+
+}
+
+.glass-container p {padding: 30px;
+
+}
+
+footer {width: 1440px;
+height: 140px;
+background-color: #F8BFC7;
+display: flex;
+justify-content: flex-start;
+align-items: center;
+}
+
+footer img {width: 330px;
+height: 40px;
+padding: 50px 1060px 50px 50px;
+}
+
+
+
