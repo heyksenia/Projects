@@ -20,10 +20,22 @@ position: fixed;
 nav {display: flex;
 	align-items: center;
 	justify-content: space-between;
+	padding: 50px;
 }
 
 
 nav li {display: inline;
+	flex-flow: row wrap;
+	justify-content: flex-end;
+}
+
+
+nav ul {
+justify-content: flex-end;
+}
+
+nav li {align-self: flex-end;
+display: inline;
 padding: 0 25px;
 }
 
@@ -58,19 +70,25 @@ letter-spacing: 0.05em;
 }
 
 .bottle-container {height: 863px;
-	margin-top: 150px;
+margin-top: 150px;
 display: flex;
+padding: 150px 200px 42px 200px;
 }
 
 .bottle-item {margin: auto;
-
 }
 
-p .bottle-item {width: 248px;
+.caption {display: flex;
+align-items: center;
+justify-content: space-between;
+margin: 42px 216px 157px 216px;
+}
+
+.caption-item {width: 248px;
 height: 58px;
 text-align: center;
-
 }
+
 
 .glass-container {width: 1040px;
 height: 280px;
@@ -84,7 +102,9 @@ display: flex;
 
 }
 
-.glass-container p {padding: 30px;
+.glass-container p {height: 220px;
+width: 749px;
+padding: 30px;
 
 }
 
