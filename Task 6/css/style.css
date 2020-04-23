@@ -20,24 +20,18 @@ position: fixed;
 nav {display: flex;
 	align-items: center;
 	justify-content: space-between;
-	padding: 50px;
-}
-
+	padding: 50px;}
 
 nav li {display: inline;
 	flex-flow: row wrap;
 	justify-content: flex-end;
 }
 
-
 nav ul {
 justify-content: flex-end;
 }
 
-nav li {align-self: flex-end;
-display: inline;
-padding: 0 25px;
-}
+
 
 .logo {width: 1440px;
 height: 950px;
